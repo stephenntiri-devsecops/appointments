@@ -1,0 +1,52 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Java / Spring
+**/build/
+**/target/
+*.jar
+
+# Node
+node_modules/
+dist/
+coverage/
+
+# Docker
+*.pid
+*.sock
+docker-data/
+postgres-data/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# Temporal local volumes
+local/postgres/
+local/temporal/
+
+# SBOM / security
+sbom*.json
+
+# Mac
+*.swp
+

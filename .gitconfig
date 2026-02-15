@@ -1,0 +1,5 @@
+[user]
+	name = stephenntiri
+	email = stephen.ntiri@gmail.com
+[alias]
+	lg = log --oneline --graph --decorate --all
