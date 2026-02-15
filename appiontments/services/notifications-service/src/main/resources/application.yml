@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+
+app:
+  temporal:
+    target: localhost:7233
+    namespace: default
+    taskQueue: appointment-notifications
